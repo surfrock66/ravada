@@ -7,7 +7,8 @@ first place it inside the KVM directory:
 ::
  
     /var/lib/libvirt/images
-
+    
+The ISO file extension must be lower case for libvirt to recognize it.
 Then you have to tell the storage engine that you changed a file manually.
 
 .. prompt:: bash $,(env)...$ auto
